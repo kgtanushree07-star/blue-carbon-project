@@ -24,7 +24,7 @@ function Evidence() {
 
     try {
       const response = await fetch(
-        "http://blue-carbon-project.onrender.com//api/evidence/upload",
+        "https://blue-carbon-project.onrender.com/api/evidence/upload",
         {
           method: "POST",
           body: formData,
