@@ -24,7 +24,7 @@ function Evidence() {
 
     try {
       const response = await fetch(
-        "http://127.0.0.1:5000/api/evidence/upload",
+        "http://blue-carbon-project.onrender.com//api/evidence/upload",
         {
           method: "POST",
           body: formData,
