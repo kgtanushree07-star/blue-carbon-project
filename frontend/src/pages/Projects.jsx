@@ -29,7 +29,7 @@ function Projects() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/projects",
+        "http://blue-carbon-project.onrender.com//api/projects",
         {
           method: "POST",
           headers: {
